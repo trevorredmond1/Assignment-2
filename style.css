@@ -1,0 +1,64 @@
+/*** control ***/
+#controls {
+    position:fixed;
+    height:6%;
+    width:48%;
+    background-color: grey;
+    top:-6%;
+    left:7%;
+    transition:1s;
+}
+
+#controlopen {
+    position:absolute;
+    top:100%;
+    left:0%;
+}
+
+.buttons {
+    margin: 2% auto 2% auto;
+    margin-left: 2.2%;
+}
+
+/***display***/
+
+#display {
+    height:auto;
+    width:40%;
+    top:15%;
+    left:7%;
+    position:absolute;
+    z-index: -1;
+}
+
+#title {
+    bottom:5%;
+    left:5%;
+    position:absolute;
+    font-size: 40px;
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1 black;
+    z-index: 0
+}
+
+#displaypic {
+    height:auto;
+    width:30%;
+    position:absolute;
+}
+
+/***localsave***/
+
+#localSave {
+    position:fixed;
+    left:5%;
+    bottom:7%;
+}
+
+/***onlinefetch***/
+
+#onlineFetch {
+    position:fixed;
+    right:20%;
+    bottom:7%;
+}
